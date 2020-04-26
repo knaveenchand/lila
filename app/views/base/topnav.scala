@@ -20,7 +20,7 @@ object topnav {
         "/",
         frag(
           span(cls := "play")(trans.play()),
-          span(cls := "home")("lichess.org")
+          span(cls := "home")("chessATC.com")
         )
       ),
       div(role := "group")(
