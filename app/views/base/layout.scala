@@ -290,8 +290,8 @@ object layout {
             if (ctx.kid) span(title := trans.kidMode.txt(), cls := "kiddo")(":)")
             else ctx.isBot option botImage,
             a(href := "/")(
-              "lichess",
-              span(if (isProd && !isStage) ".org" else ".dev")
+              "chessatc",
+              span(if (isProd && !isStage) ".com" else ".com")
             )
           ),
           ctx.blind option h2("Navigation"),
